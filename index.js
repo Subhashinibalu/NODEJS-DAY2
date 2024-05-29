@@ -14,7 +14,7 @@ app.use('/api', roomrouter )
 
 
 app.get('/',(req,res)=>{
-    res.status(200).send("running")
+    res.status(200).send("search using the endpoints to see the required results")
 })
 
 app.listen(PORT,()=>{
